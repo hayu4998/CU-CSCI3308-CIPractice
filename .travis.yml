@@ -3,4 +3,4 @@ install: make dep
 script: make test 
 sudo: enabled 
 complier: 
- - gcc 
+ -gcc 
