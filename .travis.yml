@@ -1,7 +1,8 @@
-language: c
+language: C
 install: make dep
-script: geometry.h
-script: geometry.c
-script: geometry_test.c
-script: Makefile
-sudo: required
+script: 
+-geometry.h
+-geometry.c
+-geometry_test.c
+-Makefile
+sudo: enable
