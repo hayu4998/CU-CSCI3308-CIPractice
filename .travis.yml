@@ -1,4 +1,7 @@
 language: c
 install: make dep
-script: make test
+script: geometry.h
+script: geometry.c
+script: geometry_test.c
+script: Makefile
 sudo: required
