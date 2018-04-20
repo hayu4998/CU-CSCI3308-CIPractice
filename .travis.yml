@@ -1,6 +1,5 @@
 language: c
-install: make dep 
+install: dep 
 script: make test 
 sudo: enabled 
-complier: 
- -gcc 
+complier: -gcc 
