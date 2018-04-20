@@ -1,8 +1,6 @@
 language: C
 install: make dep
-script: 
--geometry.h
--geometry.c
--geometry_test.c
--Makefile
-sudo: enable
+script: make test
+sudo: enabled
+complier: 
+-gcc
